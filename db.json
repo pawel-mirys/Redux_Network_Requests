@@ -1,0 +1,18 @@
+{
+  "users": [
+    {
+      "name": "Alicia",
+      "id": 1
+    },
+    {
+      "name": "Era",
+      "id": 2
+    },
+    {
+      "name": "Tanner",
+      "id": 3
+    }
+  ],
+  "albums": [{ "id": 11, "title": "Hiking Trip", "userId": 1 }],
+  "photos": []
+}
