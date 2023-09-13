@@ -24,4 +24,4 @@ export * from './thunks/fetchUsers';
 export * from './thunks/addUser';
 export * from './thunks/deleteUser';
 export { store, useAppDispatch, useAppSelector };
-export { useFetchAlbumsQuery } from './apis/albumsApi';
+export { useFetchAlbumsQuery, useAddAlbumMutation } from './apis/albumsApi';
