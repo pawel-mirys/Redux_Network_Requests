@@ -1,5 +1,5 @@
 import { User } from '../types';
-import { Button } from './Button';
+import  Button  from './Button';
 import { GoTrash } from 'react-icons/go';
 import { deleteUser } from '../store';
 import { useThunk } from '../hooks/use-thunk';

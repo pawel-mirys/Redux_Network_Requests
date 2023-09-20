@@ -1,7 +1,7 @@
 import { useAppSelector } from '../store';
 import { useEffect } from 'react';
 import { fetchUsers, addUser } from '../store';
-import { Button } from './Button';
+import  Button  from './Button';
 import Skeleton from './Sekeleton';
 import { useThunk } from '../hooks/use-thunk';
 import UsersListItem from './UsersListItem';

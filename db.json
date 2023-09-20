@@ -1,5 +1,71 @@
 {
-  "users": [],
-  "albums": [],
-  "photos": []
+  "users": [
+    {
+      "name": "Anthony",
+      "id": 1
+    },
+    {
+      "name": "America",
+      "id": 2
+    }
+  ],
+  "albums": [
+    {
+      "userId": 1,
+      "title": "Modern Fresh Towels",
+      "id": 1
+    },
+    {
+      "userId": 1,
+      "title": "Awesome Rubber Table",
+      "id": 2
+    },
+    {
+      "userId": 2,
+      "title": "Luxurious Frozen Shirt",
+      "id": 3
+    },
+    {
+      "userId": 2,
+      "title": "Licensed Fresh Table",
+      "id": 4
+    }
+  ],
+  "photos": [
+    {
+      "albumId": 1,
+      "url": "https://loremflickr.com/150/150/abstract?lock=2182085682921472",
+      "id": 1
+    },
+    {
+      "albumId": 2,
+      "url": "https://loremflickr.com/150/150/abstract?lock=3522094218346496",
+      "id": 4
+    },
+    {
+      "albumId": 2,
+      "url": "https://loremflickr.com/150/150/abstract?lock=6889423845195776",
+      "id": 7
+    },
+    {
+      "albumId": 3,
+      "url": "https://loremflickr.com/150/150/abstract?lock=8471461759025152",
+      "id": 8
+    },
+    {
+      "albumId": 4,
+      "url": "https://loremflickr.com/150/150/abstract?lock=4872319939903488",
+      "id": 9
+    },
+    {
+      "albumId": 4,
+      "url": "https://loremflickr.com/150/150/abstract?lock=6422410630791168",
+      "id": 10
+    },
+    {
+      "albumId": 4,
+      "url": "https://loremflickr.com/150/150/abstract?lock=7335243212128256",
+      "id": 11
+    }
+  ]
 }

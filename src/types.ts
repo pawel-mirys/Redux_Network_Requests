@@ -4,13 +4,13 @@ export type User = {
 };
 
 export type Album = {
-  id: number;
+  id: number | string;
   title: string;
-  userId: number;
+  userId: number | string;
 };
 
-export type Photos = {
-  id: number;
+export type Photo = {
+  id: number | string;
   url: string;
-  albumId: number;
+  albumId: number | string;
 };

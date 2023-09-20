@@ -18,7 +18,7 @@ const buttonTypes = {
   danger: 'border-red-600 bg-red-500 text-white',
 } as const;
 
-export const Button: React.FC<ButtonProps> = ({
+const Button: React.FC<ButtonProps> = ({
   children,
   variant,
   outline,
@@ -52,3 +52,5 @@ export const Button: React.FC<ButtonProps> = ({
     </button>
   );
 };
+
+export default Button;
