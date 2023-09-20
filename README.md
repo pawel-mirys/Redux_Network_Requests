@@ -5,5 +5,5 @@ App was made with React.JS and Redux Toolkit Query and Redux Async Thunks.
 
 
 1. npm i - for packages install.
-2. npm run dev - for app start
-3. npm run server - for local JSON server start. 
+2. npm run dev - for app start.
+3. npm run server - for run a local JSON server.
